@@ -6,6 +6,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/28a8333848cc4d85901b4f7281629665)](https://www.codacy.com/app/gopad/homebrew-gopad?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gopad/homebrew-gopad&amp;utm_campaign=Badge_Grade)
 
 
+**This project is under heavy development, it's not in a working state yet!**
+
 Homebrew repository to install Gopad on macOS.
 
 
@@ -16,9 +18,26 @@ brew tap gopad/gopad
 ```
 
 
+## Install
+
+### gopad-cli
+
+```bash
+brew install gopad-cli
+gopad-cli -h
+```
+
+
+## Development
+
+```
+rake test
+```
+
+
 ## Security
 
-If you find a security issue please contact thomas@webhippie.de first.
+If you find a security issue please contact gopad@webhippie.de first.
 
 
 ## Contributing
