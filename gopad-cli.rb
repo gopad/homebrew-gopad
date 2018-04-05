@@ -1,25 +1,26 @@
 require "formula"
 require "language/go"
+require "open-uri"
 
 class GopadCli < Formula
   desc "Etherpad for markdown with Go - CLI"
   homepage "https://github.com/gopad/gopad-cli"
 
+  head do
+    url "https://github.com/gopad/gopad-cli.git", :branch => "master"
+    depends_on "go" => :build
+  end
+
   stable do
     url "https://dl.webhippie.de/gopad/cli/0.1.0/gopad-cli-0.1.0-darwin-10.6-amd64"
-    sha256 `curl -Ls https://dl.webhippie.de/gopad/cli/0.1.0/gopad-cli-0.1.0-darwin-10.6-amd64.sha256`.split(" ").first
+    sha256 open("https://dl.webhippie.de/gopad/cli/0.1.0/gopad-cli-0.1.0-darwin-10.6-amd64.sha256").read.split(" ").first
     version "0.1.0"
   end
 
   devel do
     url "https://dl.webhippie.de/gopad/cli/master/gopad-cli-master-darwin-10.6-amd64"
-    sha256 `curl -Ls https://dl.webhippie.de/gopad/cli/master/gopad-cli-master-darwin-10.6-amd64.sha256`.split(" ").first
+    sha256 open("https://dl.webhippie.de/gopad/cli/master/gopad-cli-master-darwin-10.6-amd64.sha256").read.split(" ").first
     version "master"
-  end
-
-  head do
-    url "https://github.com/gopad/gopad-cli.git", :branch => "master"
-    depends_on "go" => :build
   end
 
   test do
