@@ -7,7 +7,7 @@
 
 **This project is under heavy development, it's not in a working state yet!**
 
-Homebrew repository to install Gopad on macOS.
+Homebrew repository to install [Gopad](https://gopad.tech) on macOS.
 
 
 ## Prepare
