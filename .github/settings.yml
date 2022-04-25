@@ -1,7 +1,7 @@
 ---
 repository:
   name: homebrew-gopad
-  description: "Gopad: Gopad"
+  description: "Gopad: Homebrew"
   homepage: https://gopad.eu
   topics: gopad, etherpad, homebrew, brew, formula
 
