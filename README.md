@@ -6,7 +6,7 @@ Homebrew repository to install [Gopad](https://gopad.eu) on macOS.
 
 ## Prepare
 
-```bash
+```console
 brew tap gopad/gopad
 ```
 
@@ -14,14 +14,14 @@ brew tap gopad/gopad
 
 ### gopad-cli
 
-```bash
+```console
 brew install gopad-cli
 gopad-cli -h
 ```
 
 ## Development
 
-```
+```console
 bundle install
 bundle exec rake rubocop
 bundle exec rake spec
