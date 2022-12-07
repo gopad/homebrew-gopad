@@ -12,7 +12,21 @@ brew tap gopad/gopad
 
 ## Install
 
-### gopad-cli
+### [gopad-api](https://github.com/gopad/gopad-api)
+
+```console
+brew install gopad-api
+gopad-api -h
+```
+
+### [gopad-ui](https://github.com/gopad/gopad-ui)
+
+```console
+brew install gopad-ui
+gopad-ui -h
+```
+
+### [gopad-cli](https://github.com/gopad/gopad-cli)
 
 ```console
 brew install gopad-cli
@@ -29,7 +43,8 @@ bundle exec rake spec
 
 ## Security
 
-If you find a security issue please contact gopad@webhippie.de first.
+If you find a security issue please contact
+[gopad@webhippie.de](mailto:gopad@webhippie.de) first.
 
 ## Contributing
 
