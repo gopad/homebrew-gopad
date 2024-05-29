@@ -1,6 +1,6 @@
 # Gopad: Homebrew
 
-[![General Workflow](https://github.com/gopad/homebrew-gopad/actions/workflows/general.yml/badge.svg)](https://github.com/gopad/homebrew-gopad/actions/workflows/general.yml) [![Join the Matrix chat at https://matrix.to/#/#gopad:matrix.org](https://img.shields.io/badge/matrix-%23gopad%3Amatrix.org-7bc9a4.svg)](https://matrix.to/#/#gopad:matrix.org) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c4d3d70805a4483cbc5cb7920a230f88)](https://www.codacy.com/gh/gopad/homebrew-gopad/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=gopad/homebrew-gopad&amp;utm_campaign=Badge_Grade)
+[![General Workflow](https://github.com/gopad/homebrew-gopad/actions/workflows/general.yml/badge.svg)](https://github.com/gopad/homebrew-gopad/actions/workflows/general.yml) [![Join the Matrix chat at https://matrix.to/#/#gopad:matrix.org](https://img.shields.io/badge/matrix-%23gopad%3Amatrix.org-7bc9a4.svg)](https://matrix.to/#/#gopad:matrix.org) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/c4d3d70805a4483cbc5cb7920a230f88)](https://app.codacy.com/gh/gopad/homebrew-gopad/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
 Homebrew repository to install [Gopad](https://gopad.eu) on macOS.
 
