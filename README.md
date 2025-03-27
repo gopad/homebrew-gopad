@@ -19,13 +19,6 @@ brew install gopad-api
 gopad-api -h
 ```
 
-### [gopad-ui](https://github.com/gopad/gopad-ui)
-
-```console
-brew install gopad-ui
-gopad-ui -h
-```
-
 ### [gopad-cli](https://github.com/gopad/gopad-cli)
 
 ```console

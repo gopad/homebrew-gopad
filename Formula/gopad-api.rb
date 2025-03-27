@@ -15,6 +15,8 @@ class GopadApi < Formula
   end
 
   depends_on "go" => :build
+  depends_on "go-task" => :build
+  depends_on "node@22" => :build
 
   def install
     ENV["CGO_ENABLED"] = "0"
@@ -25,7 +27,7 @@ class GopadApi < Formula
                        url.split("/").last.gsub(".tar.gz", "").gsub("v", "")
                      end
 
-    system "make", "generate", "build"
+    system "task", "fe:install", "fe:generate", "fe:build", "be:generate", "be:build"
     bin.install "bin/gopad-api"
 
     FileUtils.touch("gopad-api.conf")
